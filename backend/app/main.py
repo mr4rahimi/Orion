@@ -9,6 +9,7 @@ settings = get_settings()
 app = FastAPI(
     title=settings.APP_NAME,
     version=settings.APP_VERSION,
+    debug=settings.DEBUG,
 )
 
 app.include_router(router)
