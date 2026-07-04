@@ -16,9 +16,9 @@ class Settings(BaseSettings):
     API_HOST: str = "0.0.0.0"
     API_PORT: int = 8000
 
-    DATABASE_URL: str = (
-        "postgresql+psycopg://postgres:postgres@localhost:5432/orion"
-    )
+   DATABASE_URL = (
+    "postgresql+psycopg://postgres:postgres@localhost:5437/orion"
+   )
 
     PROJECT_ROOT: Path = PROJECT_ROOT
     BACKEND_PATH: Path = BACKEND_DIR
