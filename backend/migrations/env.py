@@ -1,5 +1,5 @@
 from app.database.base import Base
-
+import app.models
 target_metadata = Base.metadata
 
 # this is the Alembic Config object, which provides
